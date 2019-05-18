@@ -9,10 +9,10 @@
 DHTesp dht;  //dhtesp object
 
 // replace with your channel’s thingspeak API key,
-String apiKey = "LKXV6WZWXKU1KJ3Q";  //API write key of databot
+String apiKey = "XXXXXXXXXXXXXXX";  //API write key of databot
 
-const char* ssid = "ranjitkarna";  //enter ssid of wifi
-const char* password = "CLB1724B3E";  //enter password of wifi
+const char* ssid = "SSID";  //enter ssid of wifi
+const char* password = "Password";  //enter password of wifi
 
 const char* server = "api.thingspeak.com";
 const int DHTPIN = 14; // SO CONNECT THE DHT11/22 SENSOR TO PIN D5 OF THE NODEMCU
