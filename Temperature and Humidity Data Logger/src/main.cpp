@@ -2,7 +2,7 @@
 //DHT11 to Thingspeak Data logging
 //Node Mcu v0.9 Lolin
 
-#include <Arduino.h>  //uncomment only in vscode
+//#include <Arduino.h>  //uncomment only in vscode
 #include <DHTesp.h>
 #include <ESP8266WiFi.h>
 
