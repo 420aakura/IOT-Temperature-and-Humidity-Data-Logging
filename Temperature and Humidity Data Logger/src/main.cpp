@@ -14,7 +14,7 @@ String apiKey = "XXXXXXXXXXXXXXX";  //API write key of Thingspeak
 const char* ssid = "SSID";  //enter ssid of wifi
 const char* password = "Password";  //enter password of wifi
 
-const char* server = "api.thingspeak.com";
+const char* server = "api.thingspeak.com";  // "184.106.153.149" or api.thingspeak.com
 const int DHTPIN = 14; // SO CONNECT THE DHT11/22 SENSOR TO PIN D5 OF THE NODEMCU
 //DHT dht(DHTPIN, DHT11,15); //CHANGE DHT11 TO DHT22 IF YOU ARE USING DHT22
 
@@ -66,7 +66,7 @@ void loop() {
         return;
     }
 
-    if (client.connect(server,80)) { // "184.106.153.149" or api.thingspeak.com
+    if (client.connect(server,80)) { 
         String postStr = apiKey;
         postStr +="&field1=";
         postStr += String(t);
