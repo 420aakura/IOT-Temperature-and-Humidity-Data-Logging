@@ -9,7 +9,7 @@
 DHTesp dht;  //dhtesp object
 
 // replace with your channel’s thingspeak API key,
-String apiKey = "XXXXXXXXXXXXXXX";  //API write key of databot
+String apiKey = "XXXXXXXXXXXXXXX";  //API write key of Thingspeak
 
 const char* ssid = "SSID";  //enter ssid of wifi
 const char* password = "Password";  //enter password of wifi
